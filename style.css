@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+#particles-js{
+    height: 100%;
+    background: black;
+}
+
+.innerBox{
+    position: absolute;
+    left: 37%;
+    top: 50%;
+    color: white;
+}
+
+@media only screen and (max-width:576px){
+.innerBox{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    text-align: center;
+    color: white;
+}
+}
